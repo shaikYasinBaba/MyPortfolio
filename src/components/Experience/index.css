@@ -1,0 +1,50 @@
+.experience-container {
+    padding: 2rem;
+    max-width: 900px;
+    margin: auto;
+  }
+  
+  .experience-title {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-top: 15px;
+    color: #333;
+  }
+  
+  .experience-duration {
+    font-style: italic;
+    color: #555;
+    margin-bottom: 10px;
+  }
+  
+  .experience-role {
+    font-weight: 500;
+    margin-bottom: 10px;
+  }
+  
+  .experience-list {
+    padding-left: 20px;
+    margin-bottom: 15px;
+  }
+  
+  .experience-list li {
+    margin-bottom: 6px;
+    line-height: 1.6;
+  }
+  
+  /* DARK MODE SUPPORT */
+  body.dark-mode .experience-title {
+    color: #e0e0e0;
+    
+  }
+  
+  body.dark-mode .experience-duration {
+    color: #aaa;
+  }
+  
+  body.dark-mode .experience-role,
+  body.dark-mode .experience-list li,
+  body.dark-mode .experience-container p {
+    color: #ddd;
+  }
+  
